@@ -174,24 +174,24 @@
 
 ''' #9 String compression '''
 
-x=input()
-stri=""
-r=1
-for char in range(1,len(x)) :
-    if x[char]==x[char-1]: 
-        r+=1 
-    else : 
-        if r==1 : 
-            stri+=x[char-1]
-        else : 
-            stri+=(x[char-1])
-            stri+=str(r)
-        r=1
-if r==1 : 
-    print(stri+x[-1])
-else : 
-    print(stri+x[-1]+str(r))
+# x=input()
+# stri=""
+# r=1
+# for char in range(1,len(x)) :
+#     if x[char]==x[char-1]: 
+#         r+=1 
+#     else : 
+#         if r==1 : 
+#             stri+=x[char-1]
+#         else : 
+#             stri+=(x[char-1])
+#             stri+=str(r)
+#         r=1
+# if r==1 : 
+#     print(stri+x[-1])
+# else : 
+#     print(stri+x[-1]+str(r))
 
-
+print("hello world")
 
 
